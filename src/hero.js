@@ -190,14 +190,27 @@ function Hero({
     className: "hero-cta-row"
   }, /*#__PURE__*/React.createElement("form", {
     className: "input-row",
-    onSubmit: e => {
+    onSubmit: async e => {
       e.preventDefault();
-      const input = e.currentTarget.querySelector("input");
-      if (input) input.value = "";
-      window.alert("Thanks — you're on the waitlist. We'll be in touch.");
+      const form = e.currentTarget;
+      const input = form.querySelector("input");
+      const email = input.value;
+      try {
+        await fetch("https://app.kit.com/forms/YOUR_FORM_ID/subscriptions", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email_address: email }),
+          mode: "no-cors"
+        });
+        input.value = "";
+        window.alert("Thanks — you're on the waitlist. Check your inbox.");
+      } catch (err) {
+        window.alert("Something went wrong. Please try again or email me directly.");
+      }
     }
   }, /*#__PURE__*/React.createElement("input", {
     type: "email",
+    name: "email_address",
     placeholder: "you@company.com",
     required: true
   }), /*#__PURE__*/React.createElement("button", {
