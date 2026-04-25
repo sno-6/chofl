@@ -196,16 +196,16 @@ function Hero({
       const input = form.querySelector("input");
       const email = input.value;
       try {
-        await fetch("https://app.kit.com/forms/YOUR_FORM_ID/subscriptions", {
+        await fetch("https://app.kit.com/forms/9368076/subscriptions", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams({ email_address: email }),
           mode: "no-cors"
         });
         input.value = "";
-        window.alert("Thanks — you're on the waitlist. Check your inbox.");
+        window.alert("Thanks — you're on the waitlist. Check your inbox to confirm.");
       } catch (err) {
-        window.alert("Something went wrong. Please try again or email me directly.");
+        window.alert("Something went wrong. Please try again.");
       }
     }
   }, /*#__PURE__*/React.createElement("input", {
