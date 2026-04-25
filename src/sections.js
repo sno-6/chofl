@@ -491,8 +491,7 @@ function CTA() {
           body: new URLSearchParams({ email_address: email }),
           mode: "no-cors"
         });
-        input.value = "";
-        window.alert("You're on the list — check your inbox to confirm.");
+        window.location.href = "/thanks";
       } catch (err) {
         window.alert("Something went wrong. Please try again.");
       }
