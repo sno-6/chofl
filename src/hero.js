@@ -202,8 +202,7 @@ function Hero({
           body: new URLSearchParams({ email_address: email }),
           mode: "no-cors"
         });
-        input.value = "";
-        window.alert("Thanks — you're on the waitlist. Check your inbox to confirm.");
+        window.location.href = "/thanks";
       } catch (err) {
         window.alert("Something went wrong. Please try again.");
       }
