@@ -479,14 +479,27 @@ function CTA() {
     className: "cta-dark"
   }, /*#__PURE__*/React.createElement("h2", null, "Spot attrition ", /*#__PURE__*/React.createElement("br", null), "before it spots you."), /*#__PURE__*/React.createElement("p", null, "Chofl gives HR teams a ranked, explainable shortlist of who is most at risk of leaving \u2014 so retention conversations happen while there's still time to have them."), /*#__PURE__*/React.createElement("form", {
     className: "input-row",
-    onSubmit: e => {
+    onSubmit: async e => {
       e.preventDefault();
-      const input = e.currentTarget.querySelector("input");
-      if (input) input.value = "";
-      window.alert("You're on the list — talk soon.");
+      const form = e.currentTarget;
+      const input = form.querySelector("input");
+      const email = input.value;
+      try {
+        await fetch("https://app.kit.com/forms/9368076/subscriptions", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email_address: email }),
+          mode: "no-cors"
+        });
+        input.value = "";
+        window.alert("You're on the list — check your inbox to confirm.");
+      } catch (err) {
+        window.alert("Something went wrong. Please try again.");
+      }
     }
   }, /*#__PURE__*/React.createElement("input", {
     type: "email",
+    name: "email_address",
     placeholder: "you@company.com",
     required: true
   }), /*#__PURE__*/React.createElement("button", {
