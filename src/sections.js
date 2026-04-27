@@ -523,12 +523,12 @@ function ScoreDefinition() {
       margin: "0 0 16px",
       color: "var(--ink)"
     }
-  }, "What the Chofl Score actually means")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "What It means")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg",
     style: { margin: 0 }
-  }, "The Chofl Score is a 0–100 estimate of how likely an employee is to leave within the next six months. A score of 80 doesn’t mean an 80% chance of leaving — it means the model considers that employee’s profile as risky as the top 20% of the dataset. Scores are calibrated as a ranking, so HR teams can act confidently on the top of the list without trying to reason about absolute probabilities."))));
+  }, "The Chofl Score is a 0-100 number that estimates how likely an employee is to leave, based on patterns the model learned from historical attrition data. Higher scores mean higher risk. The score is designed for ranking — its main job is to surface the most concerning employees at the top of a sorted list, not to predict an exact probability of departure. HR teams act on the top of the list rather than trying to interpret the absolute numbers."))));
 }
 
 // === FOOTER ===
