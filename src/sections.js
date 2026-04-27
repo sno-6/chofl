@@ -517,7 +517,7 @@ function Footer() {
     className: "footer-grid"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Logo, null), /*#__PURE__*/React.createElement("div", {
     className: "footer-about"
-  }, "Attrition risk intelligence for HR teams who'd rather catch it early."))))), /*#__PURE__*/React.createElement("div", {
+  }, "Attrition risk intelligence for HR teams who'd rather catch it early."))), /*#__PURE__*/React.createElement("div", {
     className: "footer-bottom"
   }, /*#__PURE__*/React.createElement("span", null, "\xA9  Chofl  \xB7 Made for HR teams"), /*#__PURE__*/React.createElement("span", null, "v0.3 \xB7 IBM benchmark \xB7 Interpretable logistic model"))));
 }
