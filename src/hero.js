@@ -185,7 +185,7 @@ function Hero({
     style: {
       marginTop: 26
     }
-  }, "Chofl scores every employee 0\u2013100 on how likely they are to leave. Not vibes. One interpretable model, one focussed shortlist for HR to act on.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Chofl scores every employee 0\u2013100 on how likely they are to leave. Not vibes. One interpretable model, one focused shortlist for HR to act on.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 240,
     className: "hero-cta-row"
   }, /*#__PURE__*/React.createElement("form", {
