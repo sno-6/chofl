@@ -523,7 +523,7 @@ function ScoreDefinition() {
       margin: "0 0 16px",
       color: "var(--ink)"
     }
-  }, "What It means")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "What It Means.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg",
