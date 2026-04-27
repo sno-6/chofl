@@ -517,37 +517,9 @@ function Footer() {
     className: "footer-grid"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Logo, null), /*#__PURE__*/React.createElement("div", {
     className: "footer-about"
-  }, "Attrition risk intelligence for HR teams who'd rather catch it early.")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "col-hd"
-  }, "Product"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#proof"
-  }, "Proof")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#how"
-  }, "How it works")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Methodology")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Changelog")))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "col-hd"
-  }, "Company"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "About")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Blog")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Contact")))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "col-hd"
-  }, "Legal"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Privacy")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Terms")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "DPA")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
-  }, "Security"))))), /*#__PURE__*/React.createElement("div", {
+  }, "Attrition risk intelligence for HR teams who'd rather catch it early."))))), /*#__PURE__*/React.createElement("div", {
     className: "footer-bottom"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 2026 Chofl Labs \xB7 Made for HR teams"), /*#__PURE__*/React.createElement("span", null, "v0.3 \xB7 IBM benchmark \xB7 Interpretable logistic model"))));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9  Chofl  \xB7 Made for HR teams"), /*#__PURE__*/React.createElement("span", null, "v0.3 \xB7 IBM benchmark \xB7 Interpretable logistic model"))));
 }
 Object.assign(window, {
   ProofSection,
