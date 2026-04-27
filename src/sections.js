@@ -507,6 +507,30 @@ function CTA() {
   }, "Join waitlist \u2192")))));
 }
 
+// === SECTION: Score definition (between Hero and Proof) ===
+function ScoreDefinition() {
+  return /*#__PURE__*/React.createElement("section", {
+    style: { padding: "56px 0 48px" }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h2", {
+    style: {
+      fontFamily: "var(--sans)",
+      fontSize: 26,
+      fontWeight: 700,
+      letterSpacing: "-0.025em",
+      lineHeight: 1.2,
+      margin: "0 0 16px",
+      color: "var(--ink)"
+    }
+  }, "What the Chofl Score actually means")), /*#__PURE__*/React.createElement(Reveal, {
+    delay: 60
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "body-lg",
+    style: { margin: 0 }
+  }, "The Chofl Score is a 0–100 estimate of how likely an employee is to leave within the next six months. A score of 80 doesn’t mean an 80% chance of leaving — it means the model considers that employee’s profile as risky as the top 20% of the dataset. Scores are calibrated as a ranking, so HR teams can act confidently on the top of the list without trying to reason about absolute probabilities."))));
+}
+
 // === FOOTER ===
 function Footer() {
   return /*#__PURE__*/React.createElement("footer", {
@@ -523,6 +547,7 @@ function Footer() {
 }
 Object.assign(window, {
   ProofSection,
+  ScoreDefinition,
   CompanyGlance,
   HowItWorks,
   Departments,

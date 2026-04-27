@@ -17,7 +17,7 @@ function App() {
     className: densityClass
   }, /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(Hero, {
     variant: tweaks.heroVariant
-  }), /*#__PURE__*/React.createElement(LogosStrip, null), /*#__PURE__*/React.createElement(ProofSection, null), /*#__PURE__*/React.createElement(CompanyGlance, null), /*#__PURE__*/React.createElement(HowItWorks, null), /*#__PURE__*/React.createElement(Departments, null), /*#__PURE__*/React.createElement(FAQ, null), /*#__PURE__*/React.createElement(CTA, null)), /*#__PURE__*/React.createElement(Footer, null), /*#__PURE__*/React.createElement(TweaksPanel, {
+  }), /*#__PURE__*/React.createElement(LogosStrip, null), /*#__PURE__*/React.createElement(ScoreDefinition, null), /*#__PURE__*/React.createElement(ProofSection, null), /*#__PURE__*/React.createElement(CompanyGlance, null), /*#__PURE__*/React.createElement(HowItWorks, null), /*#__PURE__*/React.createElement(Departments, null), /*#__PURE__*/React.createElement(FAQ, null), /*#__PURE__*/React.createElement(CTA, null)), /*#__PURE__*/React.createElement(Footer, null), /*#__PURE__*/React.createElement(TweaksPanel, {
     title: "Tweaks"
   }, /*#__PURE__*/React.createElement(TweakSection, {
     label: "Hero layout"
