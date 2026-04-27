@@ -915,3 +915,86 @@ button { font-family: inherit; cursor: pointer; }
   padding-bottom: 2px;
 }
 .ul-link:hover { color: var(--ink); }
+
+/* ============================================================
+   MOBILE RESPONSIVE  (≤ 768 px  /  375 px primary target)
+   ============================================================ */
+
+/* Utility: hide decorative line-breaks in headings */
+@media (max-width: 768px) {
+  .hide-sm { display: none; }
+}
+
+/* Hero */
+@media (max-width: 768px) {
+  .hero { padding: 24px 0 48px; }
+  .h-display { font-size: clamp(28px, 8vw, 44px); }
+  .hero-cta-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+}
+
+/* Input-row: full-width stacked form on mobile (hero + CTA forms) */
+@media (max-width: 768px) {
+  .input-row {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 6px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .input-row input {
+    min-width: 0;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+  }
+  .input-row .btn {
+    width: 100%;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 12px 18px;
+  }
+}
+
+/* Sections: reduce vertical padding */
+@media (max-width: 768px) {
+  .section { padding: 52px 0; }
+}
+
+/* Logos strip: left-align wrapped items instead of space-between */
+@media (max-width: 768px) {
+  .logos-strip { gap: 10px 16px; justify-content: flex-start; }
+}
+
+/* Nav: shrink CTA button on very small screens */
+@media (max-width: 480px) {
+  .nav-inner .btn { padding: 8px 14px; font-size: 12px; }
+}
+
+/* Proof metrics: scale number, restore column divider, drop last-row bottom border */
+@media (max-width: 760px) {
+  .metric { padding: 22px 18px; }
+  .metric .num { font-size: 40px; }
+  .metric:nth-child(odd) { border-right: 1px solid var(--rule); }
+  .metric:nth-last-child(-n+2) { border-bottom: 0; }
+}
+
+/* Company sparklines: remove right border on right-column items in 2-col */
+@media (max-width: 760px) {
+  .spark:nth-child(even) { border-right: 0; }
+}
+
+/* CTA dark: tighter padding on very small screens */
+@media (max-width: 480px) {
+  .cta-dark { padding: 36px 22px; border-radius: 16px; }
+  .cta-dark h2 { font-size: clamp(26px, 7vw, 36px); }
+}
+
+/* Footer: brand/logo column spans full width in 2-col layout */
+@media (max-width: 760px) {
+  .footer-grid > *:first-child { grid-column: 1 / -1; }
+}
