@@ -510,24 +510,20 @@ function CTA() {
 // === SECTION: Score definition (between Hero and Proof) ===
 function ScoreDefinition() {
   return /*#__PURE__*/React.createElement("section", {
-    style: { padding: "56px 0 48px" }
+    className: "section"
   }, /*#__PURE__*/React.createElement("div", {
     className: "wrap"
-  }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("h2", {
-    style: {
-      fontFamily: "var(--sans)",
-      fontSize: 26,
-      fontWeight: 700,
-      letterSpacing: "-0.025em",
-      lineHeight: 1.2,
-      margin: "0 0 16px",
-      color: "var(--ink)"
-    }
-  }, "What It Means.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, /*#__PURE__*/React.createElement(Reveal, {
+    className: "section-eyebrow"
+  }, "READING A CHOFL SCORE"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "h-section"
+  }, "What a Chofl Score actually means.")), /*#__PURE__*/React.createElement(Reveal, {
+    delay: 120
   }, /*#__PURE__*/React.createElement("p", {
-    className: "body-lg",
-    style: { margin: 0 }
+    className: "body-lg mt-16",
+    style: { maxWidth: "72ch" }
   }, "The Chofl Score is a 0-100 number that estimates how likely an employee is to leave, based on patterns the model learned from historical attrition data. Higher scores mean higher risk. The score is designed for ranking — its main job is to surface the most concerning employees at the top of a sorted list, not to predict an exact probability of departure. HR teams act on the top of the list rather than trying to interpret the absolute numbers."))));
 }
 
