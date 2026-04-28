@@ -18,7 +18,7 @@ function ProofSection() {
   }, {
     n: "~40%",
     l: "Precision on HIGH",
-    d: "Of every ten people flagged HIGH, roughly four end up leaving — about 2.5× the dataset's overall attrition rate, so the shortlist is concentrated, not noisy."
+    d: "Of every ten people flagged HIGH, roughly four end up leaving. That's about 2.5× the dataset's overall attrition rate, so the shortlist is concentrated, not noisy."
   }];
   return /*#__PURE__*/React.createElement("section", {
     className: "section",
@@ -35,7 +35,7 @@ function ProofSection() {
     delay: 120
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16"
-  }, "Four plain-English numbers, all from the same held-out test \u2014 no cherry-picking, no claims we can't back up.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Four plain-English numbers, all from the same held-out test. No cherry-picking, no claims we can't back up.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 180
   }, /*#__PURE__*/React.createElement("div", {
     className: "metrics-row"
@@ -63,7 +63,7 @@ function ProofSection() {
     style: {
       maxWidth: "72ch"
     }
-  }, "In plain terms: if you act on the HIGH list, you'll catch most of the people most at risk of leaving \u2014 and you'll catch them on a shortlist small enough for an HRBP to actually work through. That's enough to start a real conversation: a raise, a role change, a manager swap.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "In plain terms: if you act on the HIGH list, you'll catch most of the people most at risk of leaving, and you'll find them on a shortlist small enough for an HRBP to actually work through. That's enough to start a real conversation: a raise, a role change, a manager swap.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 260,
     className: "mt-16"
   }, /*#__PURE__*/React.createElement("div", {
@@ -184,7 +184,7 @@ function HowItWorks() {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 01"), /*#__PURE__*/React.createElement("h4", null, "Connect your HR data"), /*#__PURE__*/React.createElement("p", null, "Drop in a CSV with whatever HR data you already have \u2014 pay, tenure, hours, performance, engagement, last-raise date, anything. No rigid template, no minimum set of fields. The bot works with what you give it."), /*#__PURE__*/React.createElement("div", {
+  }, "STEP 01"), /*#__PURE__*/React.createElement("h4", null, "Connect your HR data"), /*#__PURE__*/React.createElement("p", null, "Drop in a CSV with whatever HR data you already have: pay, tenure, hours, performance, engagement, last-raise date, anything. No rigid template, no minimum set of fields. The bot works with what you give it."), /*#__PURE__*/React.createElement("div", {
     className: "chip-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "chip"
@@ -204,7 +204,7 @@ function HowItWorks() {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 02"), /*#__PURE__*/React.createElement("h4", null, "Get everyone scored"), /*#__PURE__*/React.createElement("p", null, "Interpretable logistic regression \u2014 not a neural net you can't defend. Every employee gets a 0\u2013100 score and a HIGH / MED / LOW flag you can filter, group, and export."), /*#__PURE__*/React.createElement("div", {
+  }, "STEP 02"), /*#__PURE__*/React.createElement("h4", null, "Get everyone scored"), /*#__PURE__*/React.createElement("p", null, "Interpretable logistic regression, not a neural net you can't defend. Every employee gets a 0\u2013100 score and a HIGH / MED / LOW flag you can filter, group, and export."), /*#__PURE__*/React.createElement("div", {
     className: "chip-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "chip green"
@@ -218,7 +218,7 @@ function HowItWorks() {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 03"), /*#__PURE__*/React.createElement("h4", null, "See the why, act on it"), /*#__PURE__*/React.createElement("p", null, "Every flag comes with its top three drivers \u2014 \"overtime + 58/wk\", \"no raise in 22mo\", \"satisfaction dropped\". Your HR business partners get a one-page brief for each HIGH flag."), /*#__PURE__*/React.createElement("div", {
+  }, "STEP 03"), /*#__PURE__*/React.createElement("h4", null, "See the why, act on it"), /*#__PURE__*/React.createElement("p", null, "Every flag comes with its top three drivers: \"overtime + 58/wk\", \"no raise in 22mo\", \"satisfaction dropped\". Your HR business partners get a one-page brief for each HIGH flag."), /*#__PURE__*/React.createElement("div", {
     className: "reason-list"
   }, /*#__PURE__*/React.createElement("div", {
     className: "row"
@@ -422,19 +422,19 @@ function Pricing() {
 function FAQ() {
   const items = [{
     q: "What data do I actually need to give you?",
-    a: "Whatever you've already got. Drop in any HR export — pay, tenure, hours, performance, last-raise date, engagement scores — and Chofl works with whatever's there. The more signal you give it, the sharper the score, but there's no minimum and no rigid template. No emails, no Slack messages, no keystrokes, no productivity surveillance."
+    a: "Whatever you've already got. Drop in any HR export: pay, tenure, hours, performance, last-raise date, engagement scores. Chofl works with whatever's there. The more signal you give it, the sharper the score, but there's no minimum and no rigid template. No emails, no Slack messages, no keystrokes, no productivity surveillance."
   }, {
     q: "How do I know it's actually accurate?",
-    a: "We measured Chofl against 1,470 anonymized employee records with known outcomes — people we already knew had stayed or left. For every ten who left, the model flagged seven as HIGH risk without seeing the outcome. Pick any two employees at random and the model puts the leaver above the stayer 86% of the time. Every claim on this page is a held-out test result, not a marketing number."
+    a: "We measured Chofl against 1,470 anonymized employee records with known outcomes: people we already knew had stayed or left. For every ten who left, the model flagged seven as HIGH risk without seeing the outcome. Pick any two employees at random and the model puts the leaver above the stayer 86% of the time. Every claim on this page is a held-out test result, not a marketing number."
   }, {
     q: "Do my employees have to know they're being scored?",
-    a: "That's your call and depends on where you operate. Most customers add a line to their employee handbook explaining that aggregated retention analytics are run on HR data, without naming individuals. We give you template language. Chofl never produces an automated decision — a manager always reads and acts on the flag."
+    a: "That's your call and depends on where you operate. Most customers add a line to their employee handbook explaining that aggregated retention analytics are run on HR data, without naming individuals. We give you template language. Chofl never produces an automated decision. A manager always reads and acts on the flag."
   }, {
     q: "What does an HR team actually do with a HIGH flag?",
-    a: "Each flag comes with the top three reasons it was raised — \"no raise in 22 months,\" \"overtime trending up,\" \"satisfaction score dropped.\" That's enough for an HRBP to schedule a real conversation, propose a role change, fix a comp gap, or swap a manager. It's a prompt for a human, not an action on its own."
+    a: "Each flag comes with the top three reasons it was raised: \"no raise in 22 months,\" \"overtime trending up,\" \"satisfaction score dropped.\" That's enough for an HRBP to schedule a real conversation, propose a role change, fix a comp gap, or swap a manager. It's a prompt for a human, not an action on its own."
   }, {
     q: "How is this different from an engagement survey or a pulse tool?",
-    a: "Surveys ask people how they feel and hope for honest answers. Chofl reads the patterns that already exist in your HR data — pay drift, hours, promotion gaps, tenure curves — and gives you an individual score, ranked, with reasons. It complements a survey but it doesn't depend on people filling one in."
+    a: "Surveys ask people how they feel and hope for honest answers. Chofl reads the patterns in your HR data: pay drift, hours, promotion gaps, tenure curves. It gives you an individual score, ranked, with reasons. It complements a survey but it doesn't depend on people filling one in."
   }];
   const [open, setOpen] = useState(0);
   return /*#__PURE__*/React.createElement("section", {
@@ -477,7 +477,7 @@ function CTA() {
     }
   }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
     className: "cta-dark"
-  }, /*#__PURE__*/React.createElement("h2", null, "Spot attrition ", /*#__PURE__*/React.createElement("br", null), "before it spots you."), /*#__PURE__*/React.createElement("p", null, "Chofl gives HR teams a ranked, explainable shortlist of who is most at risk of leaving \u2014 so retention conversations happen while there's still time to have them."), /*#__PURE__*/React.createElement("form", {
+  }, /*#__PURE__*/React.createElement("h2", null, "Spot attrition ", /*#__PURE__*/React.createElement("br", null), "before it spots you."), /*#__PURE__*/React.createElement("p", null, "Chofl gives HR teams a ranked, explainable shortlist of who is most at risk of leaving, so retention conversations happen while there's still time to have them."), /*#__PURE__*/React.createElement("form", {
     className: "input-row",
     onSubmit: async e => {
       e.preventDefault();
@@ -524,7 +524,7 @@ function ScoreDefinition() {
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16",
     style: { maxWidth: "72ch" }
-  }, "The Chofl Score is a 0-100 number that estimates how likely an employee is to leave, based on patterns the model learned from historical attrition data. Higher scores mean higher risk. The score is designed for ranking — its main job is to surface the most concerning employees at the top of a sorted list, not to predict an exact probability of departure. HR teams act on the top of the list rather than trying to interpret the absolute numbers."))));
+  }, "The Chofl Score is a 0-100 number that estimates how likely an employee is to leave, based on patterns the model learned from historical attrition data. Higher scores mean higher risk. The score is designed for ranking. Its main job is to surface the most concerning employees at the top of a sorted list, not to predict an exact probability of departure. HR teams act on the top of the list rather than trying to interpret the absolute numbers."))));
 }
 
 // === FOOTER ===

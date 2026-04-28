@@ -117,7 +117,7 @@ function DistributionChart({
         background: b.color,
         transition: `height ${400 + i * 60}ms cubic-bezier(.2,.7,.2,1)`
       },
-      title: `${b.label} — ${b.count} employees`
+      title: `${b.label}: ${b.count} employees`
     });
   })), /*#__PURE__*/React.createElement("div", {
     className: "chart-legend"
@@ -176,7 +176,7 @@ function Hero({
     style: {
       marginTop: 22
     }
-  }, "Know who's about to leave \u2014", /*#__PURE__*/React.createElement("br", {
+  }, "Know who's about to leave,", /*#__PURE__*/React.createElement("br", {
     className: "hide-sm"
   }), " before they tell you.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 160
