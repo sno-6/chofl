@@ -68,7 +68,7 @@ function ProofSection() {
     className: "mt-16"
   }, /*#__PURE__*/React.createElement("div", {
     className: "mono mono-sm"
-  }, "Validated on the IBM HR Analytics dataset (1,470 anonymized records, snapshot) \xB7 Held-out test set \xB7 No training leakage. Real-world performance varies; figures published as your own data is run."))));
+  }, "Validated on the IBM HR Analytics dataset (1,470 anonymised records, snapshot) \xB7 Held-out test set \xB7 No training leakage. Real-world performance varies; figures published as your own data is run."))));
 }
 
 // === SECTION: Company at a glance (sparkline row) ===
@@ -425,7 +425,7 @@ function FAQ() {
     a: "Whatever you've already got. Drop in any HR export: pay, tenure, hours, performance, last-raise date, engagement scores. Chofl works with whatever's there. The more signal you give it, the sharper the score, but there's no minimum and no rigid template. No emails, no Slack messages, no keystrokes, no productivity surveillance."
   }, {
     q: "How do I know it's actually accurate?",
-    a: "We measured Chofl against 1,470 anonymized employee records with known outcomes: people we already knew had stayed or left. For every ten who left, the model flagged seven as HIGH risk without seeing the outcome. Pick any two employees at random and the model puts the leaver above the stayer 86% of the time. Every claim on this page is a held-out test result, not a marketing number."
+    a: "We measured Chofl against 1,470 anonymised employee records with known outcomes: people we already knew had stayed or left. For every ten who left, the model flagged seven as HIGH risk without seeing the outcome. Pick any two employees at random and the model puts the leaver above the stayer 86% of the time. Every claim on this page is a held-out test result, not a marketing number."
   }, {
     q: "Do my employees have to know they're being scored?",
     a: "That's your call and depends on where you operate. Most customers add a line to their employee handbook explaining that aggregated retention analytics are run on HR data, without naming individuals. We give you template language. Chofl never produces an automated decision. A manager always reads and acts on the flag."
