@@ -176,7 +176,7 @@ function Hero({
     style: {
       marginTop: 22
     }
-  }, "Know who's about to Leave,", /*#__PURE__*/React.createElement("br", {
+  }, "Know who's about to LEAVE,", /*#__PURE__*/React.createElement("br", {
     className: "hide-sm"
   }), " before they tell you.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 160
