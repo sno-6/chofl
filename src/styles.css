@@ -246,6 +246,19 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 760px) {
   .nav-links { display: none; }
 }
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.lang-switch .lang-current { color: var(--ink); font-weight: 600; }
+.lang-switch .lang-sep { color: var(--ink-faint); }
+.lang-switch .lang-link { color: var(--ink-muted); transition: color .15s ease; }
+.lang-switch .lang-link:hover { color: var(--ink); }
 
 /* === HERO === */
 .hero {

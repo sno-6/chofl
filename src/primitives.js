@@ -72,7 +72,7 @@ function Logo({
     className: "logo",
     "aria-label": "Chofl"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "assets/chofl-logo.png",
+    src: "/assets/chofl-logo.png",
     alt: "Chofl",
     style: {
       height,
@@ -83,6 +83,7 @@ function Logo({
 }
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const lang = window.CHOFL_LANG || "en";
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 6);
     on();
@@ -106,7 +107,21 @@ function Nav() {
   }, "FAQ")), /*#__PURE__*/React.createElement("a", {
     className: "btn btn-primary",
     href: "#cta"
-  }, "Join waitlist")));
+  }, "Join waitlist"), /*#__PURE__*/React.createElement("div", {
+    className: "lang-switch"
+  }, lang === "fr" ? /*#__PURE__*/React.createElement("a", {
+    href: "/",
+    className: "lang-link"
+  }, "EN") : /*#__PURE__*/React.createElement("span", {
+    className: "lang-current"
+  }, "EN"), /*#__PURE__*/React.createElement("span", {
+    className: "lang-sep"
+  }, "|"), lang === "fr" ? /*#__PURE__*/React.createElement("span", {
+    className: "lang-current"
+  }, "FR") : /*#__PURE__*/React.createElement("a", {
+    href: "/fr",
+    className: "lang-link"
+  }, "FR"))));
 }
 function AvatarStack() {
   return /*#__PURE__*/React.createElement("span", {

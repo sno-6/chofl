@@ -202,7 +202,7 @@ function Hero({
           body: new URLSearchParams({ email_address: email }),
           mode: "no-cors"
         });
-        window.location.href = "/thanks";
+        window.location.href = window.CHOFL_THANKS_URL || "/thanks";
       } catch (err) {
         window.alert("Something went wrong. Please try again.");
       }
