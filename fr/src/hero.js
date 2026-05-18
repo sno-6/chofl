@@ -43,7 +43,7 @@ const RISK_BINS = [{
   color: "#8f2420"
 }];
 function DistributionChart({
-  title = "1,470 employees",
+  title = "1470 collaborateurs",
   headline = "36%"
 }) {
   const max = Math.max(...RISK_BINS.map(b => b.count));
@@ -75,7 +75,7 @@ function DistributionChart({
     style: {
       color: "var(--ink-faint)"
     }
-  }, "EMPLOYEE RISK DISTRIBUTION"), /*#__PURE__*/React.createElement("div", {
+  }, "DISTRIBUTION DU RISQUE DE DÉPART"), /*#__PURE__*/React.createElement("div", {
     className: "chart-title",
     style: {
       marginTop: 6
@@ -97,7 +97,7 @@ function DistributionChart({
     style: {
       color: "var(--ink-faint)"
     }
-  }, "HIGH / CRITICAL"), /*#__PURE__*/React.createElement("div", {
+  }, "ÉLEVÉ / CRITIQUE"), /*#__PURE__*/React.createElement("div", {
     style: {
       fontSize: 22,
       fontWeight: 700,
@@ -133,25 +133,25 @@ function DistributionChart({
     style: {
       background: "#d9cc3e"
     }
-  }), "Watch \xB7 344"), /*#__PURE__*/React.createElement("span", {
+  }), "Surveillance \xB7 344"), /*#__PURE__*/React.createElement("span", {
     className: "sw"
   }, /*#__PURE__*/React.createElement("i", {
     style: {
       background: "#e39440"
     }
-  }), "Elevated \xB7 134"), /*#__PURE__*/React.createElement("span", {
+  }), "Élevé \xB7 134"), /*#__PURE__*/React.createElement("span", {
     className: "sw"
   }, /*#__PURE__*/React.createElement("i", {
     style: {
       background: "#c5432a"
     }
-  }), "High \xB7 326"), /*#__PURE__*/React.createElement("span", {
+  }), "Haut \xB7 326"), /*#__PURE__*/React.createElement("span", {
     className: "sw"
   }, /*#__PURE__*/React.createElement("i", {
     style: {
       background: "#8f2420"
     }
-  }), "Critical \xB7 100")));
+  }), "Critique \xB7 100")));
 }
 function Hero({
   variant = "split"
@@ -169,23 +169,23 @@ function Hero({
     className: "hero-eyebrow"
   }, /*#__PURE__*/React.createElement("span", {
     className: "mono"
-  }, "NOW IN PRIVATE BETA \xB7 WAITLIST OPEN")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "EN BÊTA PRIVÉE \xB7 LISTE D'ATTENTE OUVERTE")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 80
   }, /*#__PURE__*/React.createElement("h1", {
     className: "h-display",
     style: {
       marginTop: 22
     }
-  }, "Know who's about to LEAVE,", /*#__PURE__*/React.createElement("br", {
+  }, "Sachez qui s'apprête à partir,", /*#__PURE__*/React.createElement("br", {
     className: "hide-sm"
-  }), " before they tell you.")), /*#__PURE__*/React.createElement(Reveal, {
+  }), " avant qu'ils vous le disent.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 160
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg",
     style: {
       marginTop: 26
     }
-  }, "Chofl scores every employee 0\u2013100 on how likely they are to leave. Not vibes. One interpretable model, one focused shortlist for HR to act on.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Chofl attribue à chaque collaborateur un score de 0 à 100 reflétant son risque de départ. Pas de l'intuition. Un modèle interprétable, une liste de priorités ciblée sur laquelle votre équipe RH peut agir.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 240,
     className: "hero-cta-row"
   }, /*#__PURE__*/React.createElement("form", {
@@ -215,7 +215,7 @@ function Hero({
   }), /*#__PURE__*/React.createElement("button", {
     className: "btn btn-primary",
     type: "submit"
-  }, "Join waitlist")))), /*#__PURE__*/React.createElement("div", {
+  }, "Rejoindre la liste d'attente")))), /*#__PURE__*/React.createElement("div", {
     className: "hero-right"
   }, /*#__PURE__*/React.createElement(Reveal, {
     delay: 160,
@@ -229,15 +229,15 @@ function LogosStrip() {
     className: "logos-strip"
   }, /*#__PURE__*/React.createElement("span", {
     className: "lbl"
-  }, "Benchmarked on"), /*#__PURE__*/React.createElement("span", {
+  }, "Basé sur "), /*#__PURE__*/React.createElement("span", {
     className: "ul-link"
   }, "IBM HR Analytics"), /*#__PURE__*/React.createElement("span", {
     className: "ul-link"
-  }, "1,470 employees"), /*#__PURE__*/React.createElement("span", {
+  }, "1 470 employés"), /*#__PURE__*/React.createElement("span", {
     className: "ul-link"
-  }, "Sales \xB7 R&D \xB7 HR"), /*#__PURE__*/React.createElement("span", {
+  }, "Ventes \xB7 R&D \xB7 RH"), /*#__PURE__*/React.createElement("span", {
     className: "ul-link"
-  }, "Open methodology")), /*#__PURE__*/React.createElement("hr", {
+  }, "Méthodologie ouverte")), /*#__PURE__*/React.createElement("hr", {
     className: "rule"
   }));
 }
