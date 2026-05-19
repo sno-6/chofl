@@ -537,9 +537,9 @@ function Footer() {
     className: "footer-grid"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Logo, null), /*#__PURE__*/React.createElement("div", {
     className: "footer-about"
-  }, "Attrition risk intelligence for HR teams who'd rather catch it early."))), /*#__PURE__*/React.createElement("div", {
+  }, "L'intelligence du risque d'attrition pour les équipes RH qui préfèrent anticiper."))), /*#__PURE__*/React.createElement("div", {
     className: "footer-bottom"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9  Chofl  \xB7 Made for HR teams"), /*#__PURE__*/React.createElement("span", null, "v0.3 \xB7 IBM benchmark \xB7 Interpretable logistic model"))));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9  Chofl  \xB7 Conçu pour les équipes RH"), /*#__PURE__*/React.createElement("span", null, "v0.3 \xB7 Benchmark IBM \xB7 Modèle logistique interprétable"))));
 }
 Object.assign(window, {
   ProofSection,
