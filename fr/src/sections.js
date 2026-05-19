@@ -74,23 +74,23 @@ function ProofSection() {
 // === SECTION: Company at a glance (sparkline row) ===
 function CompanyGlance() {
   const vals = [{
-    lbl: "TOTAL EMPLOYEES",
-    v: "1,470",
+    lbl: "EFFECTIF TOTAL",
+    v: "1 470",
     color: "var(--ink-muted)"
   }, {
-    lbl: "HIGH RISK",
+    lbl: "RISQUE ÉLEVÉ",
     v: "319",
     color: "#c5432a"
   }, {
-    lbl: "MEDIUM RISK",
+    lbl: "RISQUE MOYEN",
     v: "296",
     color: "#e39440"
   }, {
-    lbl: "LOW RISK",
+    lbl: "RISQUE FAIBLE",
     v: "855",
     color: "#2f7a5a"
   }, {
-    lbl: "AVG CHOFL SCORE",
+    lbl: "SCORE CHOFL MOYEN",
     v: "36",
     color: "var(--ink)",
     suffix: "%"
@@ -103,7 +103,7 @@ function CompanyGlance() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "SAMPLE COMPANY AT A GLANCE"), /*#__PURE__*/React.createElement("div", {
+  }, "APERÇU D'UNE ENTREPRISE EXEMPLE"), /*#__PURE__*/React.createElement("div", {
     className: "sparks-row"
   }, vals.map((v, i) => /*#__PURE__*/React.createElement(Reveal, {
     className: "spark",
@@ -168,15 +168,15 @@ function HowItWorks() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "HOW IT WORKS"), /*#__PURE__*/React.createElement(Reveal, {
+  }, "COMMENT ÇA MARCHE"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "Three steps. No black box.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Trois étapes. Aucune boîte noire.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 120
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16"
-  }, "Drop in your HR data, get a scored shortlist, and read the exact reasons each person is flagged.")), /*#__PURE__*/React.createElement("div", {
+  }, "Déposez vos données RH, obtenez une liste de priorités scorée, et lisez les raisons exactes pour lesquelles chaque personne est signalée.")), /*#__PURE__*/React.createElement("div", {
     className: "steps"
   }, /*#__PURE__*/React.createElement(Reveal, {
     delay: 180
@@ -184,67 +184,67 @@ function HowItWorks() {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 01"), /*#__PURE__*/React.createElement("h4", null, "Connect your HR data"), /*#__PURE__*/React.createElement("p", null, "Drop in a CSV with whatever HR data you already have: pay, tenure, hours, performance, engagement, last-raise date, anything. No rigid template, no minimum set of fields. The bot works with what you give it."), /*#__PURE__*/React.createElement("div", {
+  }, "ÉTAPE 01"), /*#__PURE__*/React.createElement("h4", null, "Connectez vos données RH"), /*#__PURE__*/React.createElement("p", null, "Déposez un CSV avec les données RH dont vous disposez déjà : rémunération, ancienneté, heures travaillées, performance, engagement, date de dernière augmentation, etc. Pas de modèle imposé, pas de champs obligatoires. L'outil fonctionne avec ce que vous lui donnez."), /*#__PURE__*/React.createElement("div", {
     className: "chip-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "chip"
-  }, "compensation"), /*#__PURE__*/React.createElement("span", {
+  }, "rémunération"), /*#__PURE__*/React.createElement("span", {
     className: "chip"
-  }, "tenure"), /*#__PURE__*/React.createElement("span", {
+  }, "ancienneté"), /*#__PURE__*/React.createElement("span", {
     className: "chip"
   }, "satisfaction"), /*#__PURE__*/React.createElement("span", {
     className: "chip"
-  }, "commute"), /*#__PURE__*/React.createElement("span", {
+  }, "trajet domicile-travail"), /*#__PURE__*/React.createElement("span", {
     className: "chip"
-  }, "role"), /*#__PURE__*/React.createElement("span", {
+  }, "poste"), /*#__PURE__*/React.createElement("span", {
     className: "chip"
-  }, "whatever you've got")))), /*#__PURE__*/React.createElement(Reveal, {
+  }, "ce que vous avez")))), /*#__PURE__*/React.createElement(Reveal, {
     delay: 240
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 02"), /*#__PURE__*/React.createElement("h4", null, "Get everyone scored"), /*#__PURE__*/React.createElement("p", null, "Interpretable logistic regression, not a neural net you can't defend. Every employee gets a 0\u2013100 score and a HIGH / MED / LOW flag you can filter, group, and export."), /*#__PURE__*/React.createElement("div", {
+  }, "ÉTAPE 02"), /*#__PURE__*/React.createElement("h4", null, "Obtenez un score pour chaque collaborateur"), /*#__PURE__*/React.createElement("p", null, "Une régression logistique interprétable, pas un réseau de neurones indéfendable. Chaque collaborateur reçoit un score de 0 à 100 et un indicateur ÉLEVÉ / MOYEN / FAIBLE que vous pouvez filtrer, regrouper et exporter."), /*#__PURE__*/React.createElement("div", {
     className: "chip-row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "chip green"
-  }, "LOW 58%"), /*#__PURE__*/React.createElement("span", {
+  }, "FAIBLE 58%"), /*#__PURE__*/React.createElement("span", {
     className: "chip amber"
-  }, "MED 22%"), /*#__PURE__*/React.createElement("span", {
+  }, "MOYEN 22%"), /*#__PURE__*/React.createElement("span", {
     className: "chip red"
-  }, "HIGH 20%")))), /*#__PURE__*/React.createElement(Reveal, {
+  }, "ÉLEVÉ 20%")))), /*#__PURE__*/React.createElement(Reveal, {
     delay: 300
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "step-num"
-  }, "STEP 03"), /*#__PURE__*/React.createElement("h4", null, "See the why, act on it"), /*#__PURE__*/React.createElement("p", null, "Every flag comes with its top three drivers: \"overtime + 58/wk\", \"no raise in 22mo\", \"satisfaction dropped\". Your HR business partners get a one-page brief for each HIGH flag."), /*#__PURE__*/React.createElement("div", {
+  }, "ÉTAPE 03"), /*#__PURE__*/React.createElement("h4", null, "Comprenez le pourquoi, passez à l'action"), /*#__PURE__*/React.createElement("p", null, "Chaque signalement est accompagné de ses trois principaux facteurs : « heures sup + 58 h/sem », « pas d'augmentation depuis 22 mois », « satisfaction en baisse ». Vos HRBPs reçoivent une fiche synthétique d'une page pour chaque profil ÉLEVÉ."), /*#__PURE__*/React.createElement("div", {
     className: "reason-list"
   }, /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "k"
-  }, "overtime"), /*#__PURE__*/React.createElement("span", {
+  }, "heures sup"), /*#__PURE__*/React.createElement("span", {
     className: "v"
-  }, "+ 58 h/wk")), /*#__PURE__*/React.createElement("div", {
+  }, "+ 58 h/sem")), /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "k"
-  }, "last raise"), /*#__PURE__*/React.createElement("span", {
+  }, "dernière augmentation"), /*#__PURE__*/React.createElement("span", {
     className: "v"
-  }, "22 mo ago")), /*#__PURE__*/React.createElement("div", {
+  }, "il y a 22 mois")), /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("span", {
     className: "k"
-  }, "1:1 cadence"), /*#__PURE__*/React.createElement("span", {
+  }, "fréquence des points individuels"), /*#__PURE__*/React.createElement("span", {
     className: "v"
-  }, "dropped"))), /*#__PURE__*/React.createElement("div", {
+  }, "en baisse"))), /*#__PURE__*/React.createElement("div", {
     className: "mono",
     style: {
       fontSize: 10,
       color: "var(--ink-faint)"
     }
-  }, "EXPORTS: CSV \xB7 PDF BRIEF"))))));
+  }, "EXPORTS: CSV \xB7 FICHE PDF"))))));
 }
 
 // === SECTION: Departments ===
