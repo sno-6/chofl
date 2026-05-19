@@ -250,26 +250,26 @@ function HowItWorks() {
 // === SECTION: Departments ===
 function Departments() {
   const depts = [{
-    name: "Sales",
+    name: "Ventes",
     pct: 45,
     color: "#c5432a",
-    employees: "442 EMPLOYEES",
+    employees: "442 COLLABORATEURS",
     low: 141,
     med: 106,
     high: 195
   }, {
-    name: "Human Resources",
+    name: "Ressources Humaines",
     pct: 41,
     color: "#e39440",
-    employees: "63 EMPLOYEES",
+    employees: "63 COLLABORATEURS",
     low: 22,
     med: 15,
     high: 26
   }, {
-    name: "Research & Development",
+    name: "Recherche & Développement",
     pct: 31,
     color: "#2f7a5a",
-    employees: "961 EMPLOYEES",
+    employees: "961 COLLABORATEURS",
     low: 692,
     med: 175,
     high: 94
