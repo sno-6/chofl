@@ -515,16 +515,16 @@ function ScoreDefinition() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "READING A CHOFL SCORE"), /*#__PURE__*/React.createElement(Reveal, {
+  }, "COMPRENDRE UN SCORE CHOFL"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "What a Chofl Score actually means.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Ce que signifie un Chofl Score.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 120
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16",
     style: { maxWidth: "72ch" }
-  }, "The Chofl Score is a 0-100 number that estimates how likely an employee is to leave, based on patterns the model learned from historical attrition data. Higher scores mean higher risk. The score is designed for ranking. Its main job is to surface the most concerning employees at the top of a sorted list, not to predict an exact probability of departure. HR teams act on the top of the list rather than trying to interpret the absolute numbers."))));
+  }, "Le Chofl Score est un nombre de 0 à 100 qui estime la probabilité qu'un collaborateur quitte l'entreprise, à partir des tendances que le modèle a identifiées dans des données historiques d'attrition. Plus le score est élevé, plus le risque est important. Le score est conçu pour classer, pas pour prédire une probabilité exacte de départ. Son rôle principal est de faire remonter les profils les plus préoccupants en tête d'une liste triée. Les équipes RH agissent sur les premiers de la liste plutôt que de chercher à interpréter les valeurs absolues."))));
 }
 
 // === FOOTER ===
