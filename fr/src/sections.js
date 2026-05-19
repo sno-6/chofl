@@ -421,20 +421,20 @@ function Pricing() {
 // === SECTION: FAQ ===
 function FAQ() {
   const items = [{
-    q: "What data do I actually need to give you?",
-    a: "Whatever you've already got. Drop in any HR export: pay, tenure, hours, performance, last-raise date, engagement scores. Chofl works with whatever's there. The more signal you give it, the sharper the score, but there's no minimum and no rigid template. No emails, no Slack messages, no keystrokes, no productivity surveillance."
+    q: "De quelles données avez-vous besoin ?",
+    a: "De ce que vous avez déjà. Déposez n'importe quel export RH : rémunération, ancienneté, heures travaillées, performance, date de dernière augmentation, scores d'engagement. Chofl fonctionne avec ce qui est là. Plus vous lui donnez de signal, plus le score est précis — mais il n'y a pas de minimum requis, pas de modèle imposé. Pas d'e-mails, pas de messages Slack, pas de frappes au clavier, pas de surveillance de la productivité."
   }, {
-    q: "How do I know it's actually accurate?",
-    a: "We measured Chofl against 1,470 anonymised employee records with known outcomes: people we already knew had stayed or left. For every ten who left, the model flagged seven as HIGH risk without seeing the outcome. Pick any two employees at random and the model puts the leaver above the stayer 86% of the time. Every claim on this page is a held-out test result, not a marketing number."
+    q: "Comment savoir si c'est vraiment fiable ?",
+    a: "Nous avons évalué Chofl sur 1 470 enregistrements anonymisés avec des issues connues : des collaborateurs dont on savait déjà s'ils étaient partis ou restés. Sur dix départs, le modèle en a signalé sept comme ÉLEVÉ sans connaître l'issue. Prenez deux collaborateurs au hasard : dans 86 % des cas, le modèle place celui qui est parti au-dessus de celui qui est resté. Chaque chiffre cité sur cette page est un résultat de test isolé, pas un argument marketing."
   }, {
-    q: "Do my employees have to know they're being scored?",
-    a: "That's your call and depends on where you operate. Most customers add a line to their employee handbook explaining that aggregated retention analytics are run on HR data, without naming individuals. We give you template language. Chofl never produces an automated decision. A manager always reads and acts on the flag."
+    q: "Mes collaborateurs doivent-ils savoir qu'ils sont scorés ?",
+    a: "C'est à vous de décider, et cela dépend de votre pays d'opération. La plupart de nos clients ajoutent une ligne dans leur règlement intérieur expliquant que des analyses de rétention agrégées sont effectuées sur les données RH, sans nommer les individus. Nous vous fournissons une formulation type. Chofl ne produit jamais de décision automatisée. Un manager lit toujours le signalement et décide de la suite."
   }, {
-    q: "What does an HR team actually do with a HIGH flag?",
-    a: "Each flag comes with the top three reasons it was raised: \"no raise in 22 months,\" \"overtime trending up,\" \"satisfaction score dropped.\" That's enough for an HRBP to schedule a real conversation, propose a role change, fix a comp gap, or swap a manager. It's a prompt for a human, not an action on its own."
+    q: "Que fait une équipe RH avec un signalement ÉLEVÉ ?",
+    a: "Chaque signalement est accompagné des trois principales raisons qui l'ont déclenché : « pas d'augmentation depuis 22 mois », « heures supplémentaires en hausse », « score de satisfaction en baisse ». C'est suffisant pour qu'un HRBP planifie un vrai échange, propose un changement de poste, corrige un écart de rémunération, ou change de manager. C'est une invite à l'action pour un humain, pas une décision en soi."
   }, {
-    q: "How is this different from an engagement survey or a pulse tool?",
-    a: "Surveys ask people how they feel and hope for honest answers. Chofl reads the patterns in your HR data: pay drift, hours, promotion gaps, tenure curves. It gives you an individual score, ranked, with reasons. It complements a survey but it doesn't depend on people filling one in."
+    q: "En quoi est-ce différent d'une enquête d'engagement ou d'un outil de pulse ?",
+    a: "Les enquêtes demandent aux gens comment ils se sentent, en espérant des réponses honnêtes. Chofl lit les patterns dans vos données RH : dérive salariale, heures travaillées, écarts de promotion, courbes d'ancienneté. Il vous donne un score individuel, classé, avec les raisons. Il complète une enquête, mais n'en dépend pas pour fonctionner."
   }];
   const [open, setOpen] = useState(0);
   return /*#__PURE__*/React.createElement("section", {
@@ -444,13 +444,13 @@ function FAQ() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "QUESTIONS, ANSWERED"), /*#__PURE__*/React.createElement(Reveal, {
+  }, "QUESTIONS FRÉQUENTES"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "What people ask ", /*#__PURE__*/React.createElement("br", {
+  }, "WCe que les gens demandent ", /*#__PURE__*/React.createElement("br", {
     className: "hide-sm"
-  }), "before signing up.")), /*#__PURE__*/React.createElement("div", {
+  }), "avant de s'inscrire.")), /*#__PURE__*/React.createElement("div", {
     className: "faq-grid"
   }, items.map((it, i) => /*#__PURE__*/React.createElement(Reveal, {
     delay: 120 + i * 40,
