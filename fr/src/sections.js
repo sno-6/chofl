@@ -347,7 +347,7 @@ function Departments() {
       }
     }))), /*#__PURE__*/React.createElement("div", {
       className: "bar-distrib"
-    }, /*#__PURE__*/React.createElement("span", null, d.low, "FAIBLE"), /*#__PURE__*/React.createElement("span", null, d.med, " MOYEN"), /*#__PURE__*/React.createElement("span", null, d.high, "ÉLEVÉ"))));
+    }, /*#__PURE__*/React.createElement("span", null, d.low, " FAIBLE"), /*#__PURE__*/React.createElement("span", null, d.med, " MOYEN"), /*#__PURE__*/React.createElement("span", null, d.high, " ÉLEVÉ"))));
   }))));
 }
 
