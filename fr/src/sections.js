@@ -448,7 +448,7 @@ function FAQ() {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "WCe que les gens demandent ", /*#__PURE__*/React.createElement("br", {
+  }, "Ce que les gens demandent ", /*#__PURE__*/React.createElement("br", {
     className: "hide-sm"
   }), "avant de s'inscrire.")), /*#__PURE__*/React.createElement("div", {
     className: "faq-grid"
