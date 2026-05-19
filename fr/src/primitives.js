@@ -100,14 +100,14 @@ function Nav() {
     className: "nav-links"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#proof"
-  }, "Proof"), /*#__PURE__*/React.createElement("a", {
+  }, "Preuves"), /*#__PURE__*/React.createElement("a", {
     href: "#how"
-  }, "How it works"), /*#__PURE__*/React.createElement("a", {
+  }, "Comment ça marche"), /*#__PURE__*/React.createElement("a", {
     href: "#faq"
   }, "FAQ")), /*#__PURE__*/React.createElement("a", {
     className: "btn btn-primary",
     href: "#cta"
-  }, "Join waitlist"), /*#__PURE__*/React.createElement("div", {
+  }, "Rejoindre la liste d'attente"), /*#__PURE__*/React.createElement("div", {
     className: "lang-switch"
   }, lang === "fr" ? /*#__PURE__*/React.createElement("a", {
     href: "/",
