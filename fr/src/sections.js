@@ -4,21 +4,21 @@
 function ProofSection() {
   const stats = [{
     n: "7",
-    sup: "of 10",
-    l: "Leavers caught",
-    d: "Out of every ten people in the dataset who had left, the model flagged seven as HIGH risk before being told the outcome."
+    sup: "sur 10",
+    l: "Départs détectés",
+    d: "Sur dix personnes ayant effectivement quitté l'entreprise dans le jeu de données, le modèle en a signalé sept comme à risque ÉLEVÉ avant de connaître l'issue."
   }, {
     n: "3×",
-    l: "More likely to leave",
-    d: "An employee we flag HIGH is roughly three times more likely to be a leaver than one we flag LOW."
+    l: "Plus susceptibles de partir",
+    d: "Un collaborateur signalé ÉLEVÉ est environ trois fois plus susceptible d'être un départ qu'un collaborateur signalé FAIBLE."
   }, {
     n: "86%",
-    l: "Ranked in the right order",
-    d: "Pick any two employees at random. 86% of the time we correctly rank the leaver above the stayer."
+    l: "Classés dans le bon ordre",
+    d: "Prenez deux collaborateurs au hasard. Dans 86 % des cas, nous classons correctement celui qui part au-dessus de celui qui reste."
   }, {
     n: "~40%",
-    l: "Precision on HIGH",
-    d: "Of every ten people flagged HIGH, roughly four end up leaving. That's about 2.5× the dataset's overall attrition rate, so the shortlist is concentrated, not noisy."
+    l: "Précision sur les profils ÉLEVÉS",
+    d: "Sur dix personnes signalées ÉLEVÉ, environ quatre finissent par partir. C'est 2,5× le taux d'attrition global du jeu de données — la liste est concentrée, pas bruitée."
   }];
   return /*#__PURE__*/React.createElement("section", {
     className: "section",
@@ -27,15 +27,15 @@ function ProofSection() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "HOW WELL IT WORKS"), /*#__PURE__*/React.createElement(Reveal, {
+  }, "CE QUE ÇA DONNE EN PRATIQUE"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "The model earns its keep.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Le modèle fait ses preuves.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 120
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16"
-  }, "Four plain-English numbers, all from the same held-out test. No cherry-picking, no claims we can't back up.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Quatre chiffres simples, tous issus du même jeu de test. Pas de cherry-picking, pas d'affirmations qu'on ne peut pas étayer.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 180
   }, /*#__PURE__*/React.createElement("div", {
     className: "metrics-row"
@@ -63,12 +63,12 @@ function ProofSection() {
     style: {
       maxWidth: "72ch"
     }
-  }, "In plain terms: if you act on the HIGH list, you'll catch most of the people most at risk of leaving, and you'll find them on a shortlist small enough for an HRBP to actually work through. That's enough to start a real conversation: a raise, a role change, a manager swap.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "En clair : si vous agissez sur la liste ÉLEVÉ, vous identifierez la majorité des collaborateurs les plus à risque, sur une liste assez courte pour qu'un HRBP puisse réellement la travailler. C'est suffisant pour engager une vraie conversation : une revalorisation, un changement de poste, un changement de manager.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 260,
     className: "mt-16"
   }, /*#__PURE__*/React.createElement("div", {
     className: "mono mono-sm"
-  }, "Validated on the IBM HR Analytics dataset (1,470 anonymised records, snapshot) \xB7 Held-out test set \xB7 No training leakage. Real-world performance varies; figures published as your own data is run."))));
+  }, "Validé sur le jeu de données IBM HR Analytics (1 470 enregistrements anonymisés, snapshot) \xB7 Jeu de test isolé \xB7 Sans fuite d'entraînement. Les performances en conditions réelles varient ; les chiffres seront publiés au fur et à mesure que vos propres données seront traitées."))));
 }
 
 // === SECTION: Company at a glance (sparkline row) ===
