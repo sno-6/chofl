@@ -283,15 +283,15 @@ function Departments() {
     className: "wrap"
   }, /*#__PURE__*/React.createElement(Reveal, {
     className: "section-eyebrow"
-  }, "DEPARTMENT DEEP DIVE"), /*#__PURE__*/React.createElement(Reveal, {
+  }, "ANALYSE PAR DÉPARTEMENT"), /*#__PURE__*/React.createElement(Reveal, {
     delay: 60
   }, /*#__PURE__*/React.createElement("h2", {
     className: "h-section"
-  }, "See where the risk lives.")), /*#__PURE__*/React.createElement(Reveal, {
+  }, "Voyez où se concentre le risque.")), /*#__PURE__*/React.createElement(Reveal, {
     delay: 120
   }, /*#__PURE__*/React.createElement("p", {
     className: "body-lg mt-16"
-  }, "The same company, three departments. Sales is hemorrhaging. R&D is steady. HR is tiny but volatile.")), /*#__PURE__*/React.createElement("div", {
+  }, "La même entreprise, trois départements. Les Ventes saignent. La R&D est stable. Les RH sont peu nombreux mais volatils.")), /*#__PURE__*/React.createElement("div", {
     className: "dept-grid"
   }, depts.map((d, i) => {
     const total = d.low + d.med + d.high;
@@ -320,7 +320,7 @@ function Departments() {
       }
     }, "%"), /*#__PURE__*/React.createElement("span", {
       className: "cap"
-    }, "AVG CHOFL SCORE")), /*#__PURE__*/React.createElement("div", {
+    }, "SCORE CHOFL MOYEN")), /*#__PURE__*/React.createElement("div", {
       className: "bar-track",
       "aria-hidden": "true"
     }, /*#__PURE__*/React.createElement("div", {
@@ -347,7 +347,7 @@ function Departments() {
       }
     }))), /*#__PURE__*/React.createElement("div", {
       className: "bar-distrib"
-    }, /*#__PURE__*/React.createElement("span", null, d.low, " LOW"), /*#__PURE__*/React.createElement("span", null, d.med, " MED"), /*#__PURE__*/React.createElement("span", null, d.high, " HIGH"))));
+    }, /*#__PURE__*/React.createElement("span", null, d.low, "FAIBLE"), /*#__PURE__*/React.createElement("span", null, d.med, " MOYEN"), /*#__PURE__*/React.createElement("span", null, d.high, "ÉLEVÉ"))));
   }))));
 }
 
