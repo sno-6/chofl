@@ -477,7 +477,7 @@ function CTA() {
     }
   }, /*#__PURE__*/React.createElement(Reveal, null, /*#__PURE__*/React.createElement("div", {
     className: "cta-dark"
-  }, /*#__PURE__*/React.createElement("h2", null, "Spot attrition ", /*#__PURE__*/React.createElement("br", null), "before it spots you."), /*#__PURE__*/React.createElement("p", null, "Chofl gives HR teams a ranked, explainable shortlist of who is most at risk of leaving, so retention conversations happen while there's still time to have them."), /*#__PURE__*/React.createElement("form", {
+  }, /*#__PURE__*/React.createElement("h2", null, "Détectez l'attrition avant ", /*#__PURE__*/React.createElement("br", null), "qu'elle ne vous prenne de court."), /*#__PURE__*/React.createElement("p", null, "Chofl donne aux équipes RH une liste de priorités classée et explicable des collaborateurs les plus à risque de départ, pour que les conversations de rétention aient lieu pendant qu'il est encore temps."), /*#__PURE__*/React.createElement("form", {
     className: "input-row",
     onSubmit: async e => {
       e.preventDefault();
@@ -504,7 +504,7 @@ function CTA() {
   }), /*#__PURE__*/React.createElement("button", {
     className: "btn btn-primary",
     type: "submit"
-  }, "Join waitlist \u2192")))));
+  }, "Rejoindre la liste d'attente \u2192")))));
 }
 
 // === SECTION: Score definition (between Hero and Proof) ===
