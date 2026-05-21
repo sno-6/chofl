@@ -320,7 +320,7 @@ function Departments() {
       }
     }, "%"), /*#__PURE__*/React.createElement("span", {
       className: "cap"
-    }, "SCORE CHOFL MOYEN")), /*#__PURE__*/React.createElement("div", {
+    }, "CHOFL SCORE MOYEN")), /*#__PURE__*/React.createElement("div", {
       className: "bar-track",
       "aria-hidden": "true"
     }, /*#__PURE__*/React.createElement("div", {
